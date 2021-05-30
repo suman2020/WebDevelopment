@@ -14,8 +14,22 @@
 		> body: body of the website
 		> li: list the objects
 		> a href: anchor tag hypertext
+		> div
+		> span
 
 	- self-closing tags: 
 		> br: line break
 		> hr: horizontal line
 		> img: add an image object
+
+	- forms:
+		> input
+		> select
+		> types: 
+			>> text
+			>> password
+			>> email
+			>> date
+			>> submit
+			>> reset
+			

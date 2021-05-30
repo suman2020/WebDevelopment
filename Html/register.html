@@ -1,0 +1,101 @@
+<!-- -->
+<!-- HTML FORMS -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+</head>
+<body>
+	
+
+	<span></span>
+	<div>
+		<form method = "GET" action = "action.php">
+			First Name: <input type = "text" name = "firstname" required><br><br>
+			Last Name: <input type="text" name = "lastname" required ><br><br>
+			E-mail: <input type="email" name = "email" required><br><br>
+			Password: <input type="password" min = "6" name = "password" required><br><br>
+			Birthday: <input type="date" name = "birthday"> <br><br>
+			Gender: <br>
+			<input type="radio" name="gender" value = "Male" >Male 
+			<input type="radio" name="gender" value="Female"> Female 
+			<input type="radio" name="gender" value="other">Other 
+			<br><br>
+
+			Found life purpose:<br>
+			<input type="radio" name="life purpose" value = "Yes">Yes<br>
+			<input type="radio" name="life purpose" value = "No" >No<br>
+			<input type="radio" name="life purpose" value = "Still searching" >Still searching<br>
+			<br><br>
+
+			About you: <br>
+			<input type="checkbox" name = "student" > Student<br>
+			<input type="checkbox" name = "teacher" > Teacher<br>
+			<input type="checkbox" name = "guardian"> Guardian<br><br>
+
+			Sports:<br>
+			<select name = "cars">
+				<option value = "Soccer" name = "soccer"> Soccer </option>
+				<option value = "Volleyball" name = "volleyball">Volleyball</option>
+				<option value = "Swimming" name = "swimming"> Swimming</option>
+				<option value = "Table tennis" name = "table tennis">Table Tennis</option>
+				<option value = "Cricket" name = "cricket">Cricket</option>
+			</select> <br><br>
+
+			<input type = "submit" value = "Register">
+			<input type = "reset">
+		
+		</form>
+	</div>
+
+</body>
+</html>
+
+<!-- 
+NOTES:
+	- create a form in a website
+	- input tag creates an input box
+	- Important input types:
+	 	> text
+	 	> email
+	 	> date
+	 	> radio: circle select buttons
+	 	--- if the user must select one option to the least then we assign the same name to them: like in case of gender and found life purpose we've assigned the same name for the given options.
+	 	> checkbox: square select buttons: select more options
+
+	 	<select: drop down menu: default allows to select one option 
+	 		<select multiple> 
+	 	 	- multiple options can be selected by adding the multiple attribute into select
+	 	 	- to select multiple items hold down the ctrl button on windows and command button on mac
+
+<form method = "GET">
+	- this will attach the following information related with the form in the url after the form is selected.
+	- But it's better to use  method = "POST" that hides the submitted information in the url which protects user information. 
+<form method = "POST"> 
+
+<form action="action.php">
+ 	-- when the form is submitted, the action.php file is run on the backend that stores the user information.	
+
+
+<div> :this tag defines a division or a section in an HTML document. Comes in handy with CSS and javascript
+
+<span>: same as div but is specific to some lines or elements
+?
+firstname=Suman
+&lastname=Magar
+&email=magarsimon2020%40gmail.com
+&password=Miracle177636
+&birthday=2021-04-29
+&gender=male
+&life+purpose=Still+searching
+&student=on
+&teacher=on
+&guardian=on
+&cars=Volleyball
+
+
+
+
+
+-->
