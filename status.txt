@@ -1,0 +1,21 @@
+"STATUS PAGE"
+05/29/2021:
+- Introduction to web development
+- HTML
+	- tags
+		
+		> i or em: italics
+		> b or strong: bold
+		> ol: ordered list
+		> ul: unordered list
+		> p: paragraphs
+		> h: headers
+		> title: webpage title
+		> body: body of the website
+		> li: list the objects
+		> a href: anchor tag hypertext
+
+	- self-closing tags: 
+		> br: line break
+		> hr: horizontal line
+		> img: add an image object
