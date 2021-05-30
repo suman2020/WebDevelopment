@@ -1,0 +1,65 @@
+/*Introduction to CSS: Cascading style sheets;
+Cascading: to determine which style rule applies if more than one 
+rule matches a particular element
+
+> in the below example:  we have two different definations for the p selector
+> so the last property is defined.
+
+Selector{
+	Property:  value;
+}*/
+
+/* selector * represents everything, usually at the top of css sheet. */
+
+*{
+	text-align: right;
+}
+
+body{
+	background-image: url(https://wallpaperaccess.com/full/2155720.jpg);
+	background-size: cover;
+}
+
+h2,p
+{
+	color:  #AA4139;
+	text-align: center;
+	border: 5px solid rgba(88,2,14,0.2);
+	cursor: pointer;
+}
+p{
+	color:  green !important;
+}
+p{
+	color:  blue;
+}
+li{
+	list-style: none;
+	display: inline-block;
+
+}
+/*class*/
+.quotes:last-child{
+	border: 4px dashed blueviolet;
+}
+.quotes:first-child{
+	border:  4px dashed blue;
+}
+
+/*id*/
+/*a stands for alpha:  amount of transparency:  ranges from 0 to 1*/
+#div1{
+	background: rgba(0,0,255,0.1);
+}
+
+#div2{
+	background: rgba(255, 0, 0,0.1);
+}
+h2 + p {
+	text-align: center;
+	cursor:  pointer;
+	background-color: darkred;
+	color:  white !important;
+}
+
+

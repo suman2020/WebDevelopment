@@ -32,4 +32,42 @@
 			>> date
 			>> submit
 			>> reset
-			
+
+05/30/2021:
+-CSS
+		-Cheatsheet
+			> Reference:
+
+				*https://www.w3schools.com/cssref/css_selectors.asp
+				*https://css-tricks.com/almanac/
+
+				Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+			> Selectors: 
+
+				.class 
+				#id
+				*
+				element
+				element, element : both the elements have the same properties declared inside {}
+				element1 element2: select all elements2 inside element1
+				element1 > element2: select all elemnent2 where the parent is element 1: 
+							eg: div > p: selects all <p> elements where the parent is a <div> element
+				element1 + element2:  select the first element2 right after element1 
+							eg: div + p: selects the first(one) <p>element right after <div>
+				:hover
+
+				:last-child : select the last child
+				:first-child: select the first child
+						"usually used during classes and id"
+
+				!important (not recommended)
+
+
+				What seletors win out in the cascade depends on:
+				-Specificity
+				-Importance
+				-Source Order
+
+
