@@ -70,4 +70,28 @@
 				-Importance
 				-Source Order
 
+06/02/21:
+-Advanced CSS
+		> Critical Rendering Path:
+			- a sequence of steps the browser goes through to convert the HTML, CSS And Javascript into pixels on the path. 
+
+		> use of flexbox to create a website.
+			-https://darekkay.com/flexbox-cheatsheet/
+			- .container{
+					display:flex;
+					justify-content: align items horizontally
+					align-items: align items vertically 
+					flex-direction: defines the direction items are placed 
+								in the container
+								{notes:
+								- if flex-direction is reverse: justify-content reverses(start is end and end is start)
+								- if flex-direction is column:
+								justify-content becomes vertical and align-items is horizontal
+
+								}
+
+
+				}
+
+- Interactive Robot friend
 
