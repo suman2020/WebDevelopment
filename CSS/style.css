@@ -32,6 +32,15 @@ p{
 }
 p{
 	color:  blue;
+	text-decoration: underline;
+	text-transform:  uppercase;
+	line-height: 30px;
+	font-style: italic;
+	font-weight: bold; /*number between 100 and 900 or bold*/
+	font-size:120%;
+	/*font-family: "Times New Roman";*/
+	font-family: 'Mate SC', serif;
+
 }
 li{
 	list-style: none;
@@ -60,6 +69,14 @@ h2 + p {
 	cursor:  pointer;
 	background-color: darkred;
 	color:  white !important;
+}
+img{
+	float: left;
+}
+
+footer{
+	clear: both;
+	text-align: center;
 }
 
 

@@ -1,0 +1,25 @@
+h2{
+	color: brown;
+}
+body{
+	background-image: url(https://www.eyeonwindows.com/wp-content/uploads/2011/05/windows_8_m3_wallpaper_by_gatefan-d3cvd16-590x369-760x480.jpg);
+	background-size: cover;
+}
+.boxmodel{
+	border: 5px solid darkred; /* bordersize */
+	display: inline-block;
+	padding: 10px 50px 10px 50px; /* top right bottom left*/ 
+	margin: 0px 20px;  /*top-bottom left-right:  indicates space between models*/ 
+	width: 33px;
+	height: 66px;
+}
+p{
+	color: darkkhaki;
+	font-weight: bold;
+	font-style: italic;
+}
+span{
+	font-size: 2em; /*em represents fontsize = #size of containing element
+					  rem represents fontsize = #size of root element i.e html itself*/
+}
+
