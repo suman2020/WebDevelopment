@@ -4,6 +4,9 @@ h1 {
 }
 
 .robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 
 .head, 
@@ -20,10 +23,17 @@ h1 {
 	margin: 0 auto; 
 	height: 150px; 
 	border-radius: 200px 200px 0 0; 
+	/*
+
+	TL(top left) TR(top-right) BR(bottom-right) BL(bottom-left)
+
+	*/
 	margin-bottom: 10px;
 } 
 
 .eyes {
+	display: flex;
+
 	
 }
 
@@ -35,7 +45,14 @@ h1 {
 .upper_body { 
 	width: 300px; 
 	height: 150px;
-	display: flex; 
+	display: flex; /* can also be "display: in-flex;"  
+					flex:  item1 	item2 	item3
+					inflex:  item1
+							 item2
+							 item3
+
+					*/
+
 } 
 
 .left_arm, .right_arm { 
@@ -63,6 +80,7 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
+	display: flex;
 
 } 
 
@@ -85,9 +103,15 @@ h1 {
 }
 
 .right_leg { 
-	margin-left: 30px; 
+	margin-left: 3px;
 }
-
+.right_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(-20deg);
+}
 .left_eye, .right_eye { 
 	width: 20px; 
 	height: 20px; 
@@ -105,7 +129,7 @@ h1 {
 
 .right_eye { 
 	position: relative; 
-	top: 100px; 
+	top: 80px; 
 	left: 120px; 
 }
 

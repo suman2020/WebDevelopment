@@ -93,5 +93,10 @@
 
 				}
 
-- Interactive Robot friend
+06/08/2021:
+-Bootstrap: using somebody's else scripts and adding on top of it. 
+
+06/12/2021:
+	
+
 
