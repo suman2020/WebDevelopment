@@ -97,6 +97,7 @@
 -Bootstrap: using somebody's else scripts and adding on top of it. 
 
 06/12/2021:
-	
+	- startup page 
+	- mailchimp
 
 
