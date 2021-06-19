@@ -100,4 +100,40 @@
 	- startup page 
 	- mailchimp
 
+06/18/2021:
+	- css flexbox vs grid vs bootstrap
+
+	- CSS flexbox:
+		> best for one-dimensional layout: either columns or rows
+
+	- grid:
+		> best for two-dimensional layout: both columns and rows
+
+
+	CSS GRID :
+	- 	-	display: grid
+		-	grid-gap: 20px
+		-	grid-template-columns: 1fr 2fr 1fr
+			(means three columns with the size of middle column twice the size of remaining columns_)
+			/*grid-template-columns:repeat(3,1fr) or 1fr 1fr 1fr*/\
+
+		- 	grid-template-columns: auto (means fill in the content as required)
+
+		-	grid-template-rows: 1fr 2fr
+			(means size of second row double to that of first row: if more elements are there then the other rows generated will have default fr i.e 1fr) 
+
+		- most common pattern:
+			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+			---> if our screen size is smaller than 200px, then our browser picks up the 1fr and displays the content. 
+
+		- 	grid-column: 1/-1(till the end of the view port)*/
+		- 	grid-row: span 2(span across 2 grids)
+		- 	grid-column span 3 (span across 3 grids) 
+
+		- 	justify:column-based
+			align: row-based
+
+
+
+
 
