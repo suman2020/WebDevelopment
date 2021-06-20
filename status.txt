@@ -134,7 +134,9 @@
 			align: row-based
 
 
-06/19/2021:
+06/20/2021:
+	- Introduction to java script
+	
 	
 
 
