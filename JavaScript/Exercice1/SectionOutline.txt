@@ -35,9 +35,9 @@ else if
 
 JAVASCRIPT LOGICAL OPERATORS
 -----------------
-&&
-||
-!
+&& ---> and 
+|| ---> or
+!  ---> not 
 
 JAVASCRIPT FUNCTIONS
 -----------------
@@ -94,3 +94,9 @@ void
 while
 with
 yield
+
+JAVASCRIPT keypoints:
+----------------------
+prompt(): user input
+Number(string): conversion of string to integer
+alert(): output

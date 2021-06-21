@@ -6,6 +6,10 @@
 
 
 // add variable "firstName" and "lastName" // so that they equal your name
+var firstName = prompt("Write your first name:");
+var lastName = prompt("Enter your last name:");
+var name = firstName + " " + lastname
+alert("Your name is : "+ name)
 
 // create a variable that holds the answer // of "firstName" + " " + "lastName"
 
@@ -16,5 +20,5 @@ a = 2;
 a + b // what is the answer here?
 
 // What is c equal to?
-var c;
+var c;  ---> undefined
 
