@@ -177,6 +177,13 @@
 		// acessing functions vs methods
 			thisIsAFunction();
 			obj.thisIsAMethod();
+
+
+06/21/2021:
+	-------------Document Object Model(DOM) Manipulation ----------------------
+	> used to modify the html and css on the website itself using javascript
+	
+
 	
 
 
