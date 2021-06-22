@@ -30,20 +30,32 @@ function inputLength(){
 function createListElement()
 {
 	console.log("Click is working");
-		console.log(userinput); //<input id="userinput" type="text" placeholder="Enter items">
-		console.log(userinput.value);
+	console.log(userinput); //<input id="userinput" type="text" placeholder="Enter items">
+	console.log(userinput.value);
 
-		// create a new element
-		var li = document.createElement("li");
-		var li1 = document.createElement("li");
+	// create a new element
+	var li = document.createElement("li");
+	var li1 = document.createElement("li");
 
-		//adding text associated with the new element
-		li.appendChild(document.createTextNode("testing")); // created an li element with the text "testing" or "userinput"
-		li1.appendChild(document.createTextNode(userinput.value));
+	//adding text associated with the new element
+	
+	li1.appendChild(document.createTextNode(userinput.value));
 
-		ul.appendChild(li); // append the list to its parent i.e. unordered list (ul)
-		ul.appendChild(li1);
-		userinput.value = "";
+	 // append the list to its parent i.e. unordered list (ul)
+	ul.appendChild(li1);
+	userinput.value = ""; //resetting the value to empty
+
+	// creation of delbutton for every to-do-list created
+	var delbutton = document.createElement("button");
+
+	// add text into the delete buttion
+	delbutton.appendChild(document.createTextNode("Delete"));
+
+	delbutton.classList.add("DelClass");
+	//add the delete buttons to a specific/comman class called "DelClass"
+
+	li1.appendChild(delbutton); // append the deletebutton to the list
+
 }
 function afterClick(){
 	if(inputLength() >0)
@@ -68,9 +80,26 @@ function afterKeyPress(event){
 		everyrime the click happens. So we are passing a reference to the function without running it.
 
 */
+list_elements = document.querySelectorAll("li");
 
+function deleteButtonCreation()
+{
+	for( i =0; i<list_elements.length;i++)
+	{
+		var del_button = document.createElement("button")
+		var division = document.createElement("div")
+
+	}
+
+}
+
+deleteButtonCreation();
 
 button.addEventListener("click",afterClick);
 
 userinput.addEventListener("keypress",afterKeyPress);
+
+
+/////////////////////////////////////////////////////
+
 
