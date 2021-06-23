@@ -55,6 +55,7 @@ function createListElement()
 	//add the delete buttons to a specific/comman class called "DelClass"
 
 	li1.appendChild(delbutton); // append the deletebutton to the list
+	li1.classList.add("ListClass");
 
 }
 function afterClick(){
@@ -86,14 +87,37 @@ function deleteButtonCreation()
 {
 	for( i =0; i<list_elements.length;i++)
 	{
-		var del_button = document.createElement("button")
-		var division = document.createElement("div")
+		element = list_elements[i];
+		element.classList.add("ListClass");
+		var del_button = document.createElement("button");
+		del_button.appendChild(document.createTextNode("Delete"));
+		del_button.classList.add("DelClass");
+		
+		element.appendChild(del_button);
+
 
 	}
 
 }
 
+
+function mainTask(event)
+{
+	if(event.target.tagName === "LI")
+	{
+		event.target.classList.toggle("done");
+	}
+
+	if(event.target.className === "DelClass")
+	{
+		event.target.parentElement.remove();
+	}
+	
+
+}
 deleteButtonCreation();
+
+ul.addEventListener("click",mainTask);
 
 button.addEventListener("click",afterClick);
 
