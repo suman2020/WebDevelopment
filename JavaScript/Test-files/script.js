@@ -111,3 +111,62 @@ nullObj.name = "suman" ; // gives out error cause it is declared as null
 emptyObj.name = "SUman" ;  // adds name: "suman" to the object property
 
 
+
+/* 
+JAVSCRIPT CONDITIONALS:
+
+if
+else
+else if
+ternary operator
+switch
+
+*/
+
+----------------"Ternary operator"---------------
+/ condition ? expr1 : expr2;
+
+function isUserValid(bool)
+{
+    return  bool;
+
+}
+
+var answer = isUserValid(true) ? "You may enter" : "Access Denied" ;
+
+var automatedAnswer = "Your account # is " + (isUserValid(false) ? "1234": "not available");
+
+
+
+
+-----------------"Switch Statement"----------------------
+function moveCommand(direction)
+{
+    var whathappens:
+    switch(direction):
+    {
+        case "forward":
+            whathappens = "You encounter a monster";
+            break;
+
+        case "backward":
+            whathappens = "You arrived home";
+            break;
+
+        case "right":
+            whathappens = "You found a river";
+            break;
+
+        case "left":
+            whathappens = "You found a beautiful door";
+            break;
+        default:
+            whathappens = "please enter a valid direction";
+
+    }
+
+    return whathappens;
+
+
+}
+
