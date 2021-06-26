@@ -24,7 +24,7 @@ square(45);
 
 
 
-//---------------Object methods-----------
+//---------------Object methods that returns array-----------
 Object.values
 Object.entries
 Object.keys
