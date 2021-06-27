@@ -96,9 +96,17 @@ console.log(power); // displays 0
  ?? : checks if value is not or undefined
 
 
- 
+
 
 ................Promise.allSettled...........................
 
 
 .................globalThis..................................
+
+
+
+
+....................debugger tool...................................
+const flattened = [[0,10],[2,3],[4,5]].reduce((accumulator, array)=>{
+debugger;
+return accumulator.concat(array)},[]);
