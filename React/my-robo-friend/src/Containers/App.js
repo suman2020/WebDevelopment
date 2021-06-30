@@ -1,7 +1,9 @@
  import React from 'react';
-import CardList from './CardList';
-// import { Robots } from './robots';
-import SearchBox from './SearchBox';
+import CardList from '../Components/CardList';
+// import { Robots } from '../Components/robots';
+import SearchBox from '../Components/SearchBox';
+import Scroll from '../Components/Scroll';
+import ErrorBoundary from '../Components/ErrorBoundary';
 
 
 // class always has a render that returns something
@@ -39,8 +41,11 @@ class App extends React.Component{
 			<div className = 'tc'>
 				<h1 > Robot Friends </h1>
 				<SearchBox searchChange = {this.onSearchChange} /> 
-
-				<CardList Robots = {filterRobots} />
+				<Scroll>
+					<ErrorBoundary>
+						<CardList Robots = {filterRobots} />
+					</ErrorBoundary>		
+				</Scroll>
 			</div>
 			);
 	}
