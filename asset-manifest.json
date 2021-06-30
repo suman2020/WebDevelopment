@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/main.22a2da63.chunk.js",
+    "main.js.map": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/main.22a2da63.chunk.js.map",
+    "runtime-main.js": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/runtime-main.63111531.js",
+    "runtime-main.js.map": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/runtime-main.63111531.js.map",
+    "static/css/2.c1f4f5f4.chunk.css": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/css/2.c1f4f5f4.chunk.css",
+    "static/js/2.fa3dd501.chunk.js": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/2.fa3dd501.chunk.js",
+    "static/js/2.fa3dd501.chunk.js.map": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/2.fa3dd501.chunk.js.map",
+    "static/js/3.070a139e.chunk.js": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/3.070a139e.chunk.js",
+    "static/js/3.070a139e.chunk.js.map": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/3.070a139e.chunk.js.map",
+    "index.html": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/index.html",
+    "static/css/2.c1f4f5f4.chunk.css.map": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/css/2.c1f4f5f4.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.fa3dd501.chunk.js.LICENSE.txt": "/suman2020/WebDevelopment/tree/main/React/my-robo-friend/static/js/2.fa3dd501.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63111531.js",
+    "static/css/2.c1f4f5f4.chunk.css",
+    "static/js/2.fa3dd501.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.22a2da63.chunk.js"
+  ]
+}
