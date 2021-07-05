@@ -1,0 +1,17 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
