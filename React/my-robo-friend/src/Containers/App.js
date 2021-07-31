@@ -23,6 +23,7 @@ function App() {
 	// use of Hooks
 	const [robots, setRobots] = useState([]);
 	const [searchField,setSearchField] = useState('');
+	const [count,setCount] = useState(0);
 
 	const onSearchChange= (event)=>{
 		// not this.state.searchfield = ..... )(must always use setstate when there is change in state eg. the value inside searchfield)
@@ -39,15 +40,24 @@ function App() {
 		console.log('Helllo what up. this is ComposeDidMount()')
 	}
 	*/
+
+	useEffect(() => {
+		fetch('https://jsonplaceholder.typicode.com/users')
+			.then(response =>response.json())
+			.then(users => {setRobots(users)})
+		console.log(count);
+
+	},[count]); //only run if count changes
 	
-		const filterRobots = robots.filter(robot =>{
-			return robot.name.toLowerCase().includes(searchField.toLowerCase());
-		})
-	console.log("Render");
+	const filterRobots = robots.filter(robot =>{
+		return robot.name.toLowerCase().includes(searchField.toLowerCase());
+	})
+	
 	return (
 
 		<div className = 'tc'>
 			<h1 > Robot Friends </h1>
+			<button onClick = {() =>setCount(count+1)} > Click Me! </button>
 			<SearchBox searchChange = {onSearchChange} /> 
 			<Scroll>
 				<ErrorBoundary>
